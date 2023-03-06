@@ -1,0 +1,65 @@
+/* Import of the file that contains all the colors */
+@import 'styles/colors.scss';
+
+/* Import of the main font for all the code */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Ubuntu", serif;
+  margin: 0;
+}
+
+/* Standard body */
+body {
+  background-color: $bg-darker;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+/* Width of the entire scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $darker-grey;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid $bg-darker;  /* creates padding around scroll thumb */
+}
+
+/* Easily working images */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Fonts inherit for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-inline-start:  0px;;
+  list-style: none;
+}
+
+
+#root > main.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+}
