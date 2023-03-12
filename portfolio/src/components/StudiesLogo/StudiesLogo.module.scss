@@ -1,7 +1,16 @@
 @import 'assets/colors';
 
 .container {
-  p {
-    color: $darker-grey;
-  }
+                img { 
+                         margin: 0 auto; 
+                         border-radius: 25px; 
+                         width: 50%; 
+                 } 
+  
+                 p { 
+                         text-align: center; 
+                         font-size: 10px; 
+                         margin-top: 5px; 
+                         color: $darker-grey; 
+                 }
 }
