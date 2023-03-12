@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import pedro from 'assets/pedro.png';
 
-import style from './home.module.scss';
+import style from './Home.module.scss';
 import './writer.css';
 
 import { BiWorld } from 'react-icons/bi';
@@ -11,13 +11,6 @@ import { RxDoubleArrowUp } from 'react-icons/rx';
 import TypewriterComponent from 'typewriter-effect';
 
 export default function Home() {
-
-	const [canShow, setCanShow] = useState(false);
-
-	useEffect(() => {
-		const timer = setTimeout(() => setCanShow(true), 5000);
-		return () => clearTimeout(timer);
-	});
 
 	return (
 		<section className={style.home}>

@@ -1,0 +1,59 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+
+.card {
+	background: $bg-lighter;
+	border: 1px solid $soft-grey;
+	border-radius: 10px;
+	padding: 20px 30px;
+	height: 270px;
+	color: $soft-grey;
+	text-align: center;
+
+	h3 {
+		color: $main-blue;
+		text-shadow: 0 0 3px #55555585, 0 0 5px #0000ffaf;
+	}
+
+	&__imagecontainer {
+		max-width: 120px;
+		max-height: 100px;
+		object-fit: contain;
+		margin: 0 auto;
+
+		img {
+			box-shadow: 0 0 4px #cfcfcfd6;
+			border-radius: 50px;
+			height: 100px;
+			margin: 10px auto;
+		}
+	}
+
+	&__container {
+		height: 100px;
+	}
+}
+
+.text {
+
+	&__age {
+		margin: 5px 0;
+	}
+
+	&__location {
+		margin: 5px 0;
+		text-align: start;
+		font-size: 14px;
+	}
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 10px;
+
+	svg {
+		margin: 5px;
+	}
+}

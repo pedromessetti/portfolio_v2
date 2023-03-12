@@ -22,13 +22,13 @@ header {
 
 			svg {
 				scale: 200%;
-				color: $white;
+				color: white;
 			}
 		}
 
 		&__logo {
 			margin: 5px 0;
-			color: $white;
+			color: white;
 	
 			span {
 				color: $main-blue;
@@ -78,7 +78,7 @@ header {
 
 					span {
 						transition: 400ms;
-						color: $white;
+						color: white;
 					}
 				}
 			}

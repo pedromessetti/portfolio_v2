@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import style from './header.module.scss';
+import style from './Header.module.scss';
 
 import { HiMenu } from 'react-icons/hi';
 

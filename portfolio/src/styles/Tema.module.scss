@@ -1,0 +1,14 @@
+@import 'styles/colors';
+
+//Main settings
+.titulo {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 700;
+	color: $darker-grey;
+}
+
+.container {
+	margin: 20px;
+}

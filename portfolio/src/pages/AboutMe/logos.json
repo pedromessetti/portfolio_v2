@@ -1,0 +1,27 @@
+[
+	{
+		"name": "42 Lisboa",
+		"path": "assets/logos/42_lisboa.png",
+		"id": "1"
+	},
+	{
+		"name": "Alura",
+		"path": "assets/logos/42_lisboa.png",
+		"id": "2"
+	},
+	{
+		"name": "Curso em Vídeo",
+		"path": "assets/logos/42_lisboa.png",
+		"id": "3"
+	},
+	{
+		"name": "UFF",
+		"path": "assets/logos/42_lisboa.png",
+		"id": "4"
+	},
+	{
+		"name": "UFRJ",
+		"path": "assets/logos/42_lisboa.png",
+		"id": "5"
+	}
+]
