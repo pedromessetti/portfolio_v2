@@ -1,19 +1,28 @@
-import React from 'react';
+/* eslint-disable @typescript-eslint/no-var-requires */
+import StudiesDesc from 'components/StudiesDesc';
+import React, { useState } from 'react';
 
 import style from './StudiesLogo.module.scss';
 
-interface Props {
-	name: string,
-	path: string,
-	id: string,
- href: string
-}
+import IStudies from 'types/IStudies';
+import classNames from 'classnames';
 
-export default function StudiesLogo(props: Props) {
+export default function StudiesLogo(props: IStudies) {
+
+	const [canShow, setCanShow] = useState(false);
+
 	return (
-		<a href={props.href} target='_blank' rel='noreferrer' className={style.container}>
-			<img src={props.path} alt={`${props.name} Logo`} />
-			<p>{props.name}</p>
-		</a>
+		<>
+			<div onClick={() => setCanShow(!canShow)}
+				className={classNames({
+					[style.container]: true,
+					[style.container__active]: canShow
+				})}
+			>
+				<img src={require(`assets/logos/${props.photo}`)} alt={`${props.name} Logo`} />
+				<p>{props.name}</p>
+			</div>
+			{canShow ? <StudiesDesc {...props} /> : null}
+		</>
 	);
 }

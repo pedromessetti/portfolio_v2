@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 //Style imports
 import style from './AboutMe.module.scss';
@@ -6,16 +6,18 @@ import styleTema from 'styles/Tema.module.scss';
 
 //Component import
 import Card from 'components/Card';
+import StudiesLogo from 'components/StudiesLogo';
 
-import logos from './logos.json';
+//Data import
+import studies from 'data/studies.json';
 
 //Lib import
 import classNames from 'classnames';
-import StudiesLogo from 'components/StudiesLogo';
+
 
 export default function AboutMe() {
 
-	const [item, setItem] = useState(logos);
+	const item = studies;
 
 	return (
 		<>
@@ -23,16 +25,18 @@ export default function AboutMe() {
 				[styleTema.container]: true,
 				[style.infos]: true
 			})}>
-				<h2 className={styleTema.titulo}>Personal informations</h2>
+				<h2 className={styleTema.title}>Personal informations</h2>
 				<Card />
 			</section>
 			<section className={style.studies}>
-				<h2 className={styleTema.titulo}>My studies</h2>
-				<div className={style.container}>
+				<h2 className={styleTema.title}>My studies</h2>
+				<div className={style.studies__container}>
 					{item.map(item => (
-						<StudiesLogo key={item.id} {...item}/>
+						<StudiesLogo key={item.id} {...item} />
 					))}
 				</div>
+			</section>
+			<section className={style.about}>
 			</section>
 		</>
 	);

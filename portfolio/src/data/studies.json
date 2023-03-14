@@ -1,0 +1,52 @@
+[
+	{
+		"name": "42 Lisboa",
+		"photo": "42lisboa.png",
+		"id": 1,
+		"link": "https://www.42lisboa.com/",
+		"description": "Programming school founded in 2013 in Paris and has schools in more than 20 countries. The teaching methodology is totally innovative with practical projects, group learning, earning points and helping colleagues. I learned to solve problems, to search for solutions effectively and in a team, I exercised my creativity and became more technically qualified.",
+		"learnings": "C/C++, Unix, Team Work, Time Management",
+		"docs_type": " repository",
+		"docs_link": "https://github.com/"
+	},
+	{
+		"name": "Alura",
+		"photo": "alura.png",
+		"id": 2,
+		"link": "https://www.alura.com.br/",
+		"description": "Biggest online technology school in Brazil. It has courses in several areas, my learning focus was on Web Development. I learned many concepts of programming logic, Front-End, frameworks, supersets and libraries.",
+		"learnings": "Python, HTML, CSS, JS/TS, React, Sass",
+		"docs_type": " certificates",
+		"docs_link": "https://www.linkedin.com/in/pedro-messetti/details/certifications/"
+	},
+	{
+		"name": "Curso em Vídeo",
+		"photo": "cev.png",
+		"id": 3,
+		"link": "https://youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-",
+		"description": "Online classes on youtube with professor Gustavo Guanabara about basic knowledge of Python such as functions, arrays, tuples, dictionarys, modules, error tratements, conditions, types and operators.",
+		"learnings": "Python",
+		"docs_type": "repository",
+		"docs_link": "https://github.com/pedromessetti/aulas-curso-em-video-python"
+	},
+	{
+		"name": "UFF",
+		"photo": "uff.png",
+		"id": 4,
+		"link": "https://www.uff.br/",
+		"description": "At Universidade Federal Fluminense (UFF) I studied until the 4th period of Engineering and Industrial Management",
+		"learnings": "SCRUM, PMBOK, C++, Industrial Strategic Planning, Operational Planning",
+		"docs_type": "articles",
+		"docs_link": "https://drive.google.com/drive/folders/1w4y4c1i7Ecr1tDQYSvPghEOZfmNKX2G_?usp=share_link"
+	},
+	{
+		"name": "CLAC",
+		"photo": "clac.png",
+		"id": 5,
+		"link": "https://clac.letras.ufrj.br/",
+		"description": "CLAC is an extension project of the Faculty of Letters of the Federal University of Rio de Janeiro and aims to promote language courses for the community, providing a space where UFRJ Letters graduates practice teaching in a reflective, conscious and qualitative way. , under the guidance of the professors of this institution.",
+		"learnings": "English",
+		"docs_type": "certificate",
+		"docs_link": "https://clac.letras.ufrj.br/"
+	}
+]
