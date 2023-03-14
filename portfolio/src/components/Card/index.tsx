@@ -29,7 +29,7 @@ export default function Card() {
 				</div>
 				<div className={style.icons}>
 					<a href='mailto:pedromessetti@gmail.com' target='_blank' rel='noreferrer'><MdEmail className={style.card__icons__email} /></a>
-					<a href='tel:+351 214 428 924'><MdPhone className={style.card__icons__phone} /></a>
+					<a href='tel:+351 924 686 213'><MdPhone className={style.card__icons__phone} /></a>
 					<a href='https://www.linkedin.com/in/pedro-messetti/' target='_blank' rel='noreferrer'><BsLinkedin className={style.card__icons__linkedin} /></a>
 				</div>
 			</div>
