@@ -3,10 +3,33 @@
 
 //Main settings
 .studies {
-	
+
 	&__container {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
 		margin: 0 10px;
+	}
+}
+
+.about {
+	margin: 20px;
+
+	&__active {
+		margin-top: 200px;
+	}
+
+	p {
+		color: $darker-grey;
+		font-size: 14px;
+	}
+}
+
+.tag {
+	&__text {
+		color: $tag-text;
+	}
+
+	&__symbol {
+		color: $tag-symbol;
 	}
 }

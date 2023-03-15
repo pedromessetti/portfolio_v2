@@ -11,9 +11,14 @@ export default function StudiesLogo(props: IStudies) {
 
 	const [canShow, setCanShow] = useState(false);
 
+	const handleClick = () => {
+		props.setAddMargin(!props.addMargin);
+		setCanShow(!canShow);
+	};
+
 	return (
 		<>
-			<div onClick={() => setCanShow(!canShow)}
+			<div onClick={() => handleClick()}
 				className={classNames({
 					[style.container]: true,
 					[style.container__active]: canShow
