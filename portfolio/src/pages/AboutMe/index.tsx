@@ -21,29 +21,17 @@ export default function AboutMe() {
 	const [addMargin, setAddMargin] = useState(false);
 
 	return (
-		<>
+		<div className={style.main}>
 			<section className={classNames({
 				[styleTema.container]: true,
 				[style.infos]: true
 			})}>
-				<h2 className={styleTema.title}>Personal informations</h2>
+				<h2 className={styleTema.title}>Personal Informations</h2>
 				<Card />
 			</section>
 
-			<section className={style.studies}>
-				<h2 className={styleTema.title}>My studies</h2>
-				<div className={style.studies__container}>
-					{item.map(item => (
-						<StudiesLogo key={item.id} setAddMargin={setAddMargin} addMargin={addMargin} {...item} />
-					))}
-				</div>
-			</section>
-
-			<section className={classNames({
-				[style.about]: true,
-				[style.about__active]: addMargin
-			})}>
-				<h2 className={styleTema.title}>About me</h2>
+			<section className={style.about}>
+				<h2 className={styleTema.title}>About Me</h2>
 				<div>
 					<p>
 						<span className={style.tag__symbol}>&#60;</span>
@@ -56,6 +44,18 @@ export default function AboutMe() {
 					</p>
 				</div>
 			</section>
-		</>
+
+			<section className={style.studies}>
+				<h2 className={styleTema.title}>My Studies</h2>
+				<div className={classNames({
+					[style.studies__container]: true,
+					[style.studies__active]: addMargin
+				})}>
+					{item.map(item => (
+						<StudiesLogo key={item.id} setAddMargin={setAddMargin} addMargin={addMargin} {...item} />
+					))}
+				</div>
+			</section>
+		</div>
 	);
 }

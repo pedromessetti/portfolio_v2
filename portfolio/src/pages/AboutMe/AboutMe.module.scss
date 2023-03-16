@@ -9,14 +9,14 @@
 		grid-template-columns: repeat(5, 1fr);
 		margin: 0 10px;
 	}
+
+	&__active {
+		margin-bottom: 210px;
+	}
 }
 
 .about {
 	margin: 20px;
-
-	&__active {
-		margin-top: 200px;
-	}
 
 	p {
 		color: $darker-grey;
@@ -32,4 +32,23 @@
 	&__symbol {
 		color: $tag-symbol;
 	}
+}
+
+
+//Tablet adjustments
+@media (min-width: $tablet) {
+	.main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.about {
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (min-width: $laptop) {
+	
 }

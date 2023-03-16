@@ -8,6 +8,10 @@ export default function Skills() {
 	return (
 		<>
 			<section className={styleTema.container}>
+				<h2 className={styleTema.title}>Programming Skills</h2>
+			</section>
+
+			<section className={styleTema.container}>
 				<h2 className={styleTema.title}>Soft Skills</h2>
 				<ul>
 					<li></li>
@@ -16,6 +20,10 @@ export default function Skills() {
 					<li></li>
 					<li></li>
 				</ul>
+			</section>
+
+			<section className={styleTema.container}>
+				<h2 className={styleTema.title}>Languages</h2>
 			</section>
 		</>
 	);

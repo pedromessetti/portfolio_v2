@@ -4,7 +4,7 @@
 		"photo": "42lisboa.png",
 		"id": 1,
 		"link": "https://www.42lisboa.com/",
-		"description": "Programming school founded in 2013 in Paris and has schools in more than 20 countries. The teaching methodology is totally innovative with practical projects, group learning, earning points and helping colleagues. I learned to solve problems, to search for solutions effectively and in a team, I exercised my creativity and became more technically qualified.",
+		"description": "Programming school founded in 2013 in Paris and has schools in more than 20 countries. The teaching methodology is totally innovative with practical projects, group learning, earning points and helping colleagues. I learned to solve problems, to search for solutions effectively and in a team, i exercised my creativity and became more technically qualified.",
 		"learnings": "C/C++, Unix, Team Work, Time Management",
 		"docs_type": " repository",
 		"docs_link": "https://github.com/"
@@ -14,7 +14,7 @@
 		"photo": "alura.png",
 		"id": 2,
 		"link": "https://www.alura.com.br/",
-		"description": "Biggest online technology school in Brazil. It has courses in several areas, my learning focus was on Web Development. I learned many concepts of programming logic, Front-End, frameworks, supersets and libraries.",
+		"description": "Biggest online technology school in Brazil. It has courses in several areas, my learning focus was on Front-End Development. I learned many concepts of programming logic, Front-End, frameworks, supersets and libraries. Take a look at my certificates from the courses i have taken and see my knowledge bases.",
 		"learnings": "Python, HTML, CSS, JS/TS, React, Sass",
 		"docs_type": " certificates",
 		"docs_link": "https://www.linkedin.com/in/pedro-messetti/details/certifications/"
@@ -24,7 +24,7 @@
 		"photo": "cev.png",
 		"id": 3,
 		"link": "https://youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-",
-		"description": "Online classes on youtube with professor Gustavo Guanabara about basic knowledge of Python such as functions, arrays, tuples, dictionarys, modules, error tratements, conditions, types and operators.",
+		"description": "Online classes on Youtube with professor Gustavo Guanabara about basic knowledges of Python 3 such as functions, arrays, tuples, dictionarys, modules, error tratements, conditions, types and operators. Take a look at my repository on GitHub below and see the exercises that i did using my learnings.",
 		"learnings": "Python",
 		"docs_type": "repository",
 		"docs_link": "https://github.com/pedromessetti/aulas-curso-em-video-python"
@@ -34,7 +34,7 @@
 		"photo": "uff.png",
 		"id": 4,
 		"link": "https://www.uff.br/",
-		"description": "At Universidade Federal Fluminense (UFF) I studied until the 4th period of Engineering and Industrial Management",
+		"description": "At Universidade Federal Fluminense (UFF) I studied until the 4th period of Engineering and Industrial Management. I dropped the course and came to Portugal and have no intention of returning to the engineering field, my focus is 100% on programming. I learned many concepts about Agile Methodologies, administration of companies and also learn a little bit of C++.",
 		"learnings": "SCRUM, PMBOK, C++, Industrial Strategic Planning, Operational Planning",
 		"docs_type": "articles",
 		"docs_link": "https://drive.google.com/drive/folders/1w4y4c1i7Ecr1tDQYSvPghEOZfmNKX2G_?usp=share_link"
