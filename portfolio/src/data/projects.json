@@ -1,0 +1,65 @@
+[
+	{
+		"name": "Aluroni",
+		"description": "Website for a fictional italian restaurant using React with TS, Router DOM, Sass, CSS modules and a bounch of other concepts",
+		"photo": "aluroni.jpg",
+		"link": "https://aluroni-nu.vercel.app",
+		"id": 1
+	},
+	{
+		"name": "Interactive Keyboard",
+		"description": "Project that reproduces sounds while click. Using HTML, CSS and JS",
+		"photo": "interactive-keyboard.jpg",
+		"link": "",
+		"id": 2
+	},
+	{
+		"name": "Robotron 2000",
+		"description": "Mount your robot for battle! HTML, CSS and JS",
+		"photo": "robotron-2000.jpg",
+		"link": "",
+		"id": 3
+	},
+	{
+		"name": "Alura Plus",
+		"description": "Subscription page for new user. Using HTML and CSS",
+		"photo": "alura-plus.jpg",
+		"link": "https://alura-plus-zeta-blond.vercel.app/",
+		"id": 4
+	},
+	{
+		"name": "Alura Space",
+		"description": "The best gallery of space images. SPA using React JS",
+		"photo": "alura-space.jpg",
+		"link": "https://alura-space-psi.vercel.app/",
+		"id": 5
+	},
+	{
+		"name": "Guessing Game",
+		"description": "Guessing game using JS, HTML and CSS.",
+		"photo": "adivinhacao.jpg",
+		"link": "https://jogo-da-adivinhacao.vercel.app/",
+		"id": 6
+	},
+	{
+		"name": "Alura Books",
+		"description": "This project was developed following a design on Figma and has the objective to be developed through the concept of mobile first",
+		"photo": "adivinhacao.jpg",
+		"link": "https://alura-space-psi.vercel.app/",
+		"id": 7
+	},
+	{
+		"name": "Treino React",
+		"description": "SPA for mount your gym training.",
+		"photo": "treino-react.jpg",
+		"link": "https://treino-react.vercel.app/",
+		"id": 8
+	},
+	{
+		"name": "Studies of the day",
+		"description": "React application of a To Do List with a timer for each task. Project developed with TypeScript template, using concepts widely used in React such as DRY (Dont Repeat Yoursel) and SRP (Single Responsibility Principal).",
+		"photo": "estudos.jpg",
+		"link": "https://estudos-do-dia.vercel.app/",
+		"id": 9
+	}
+]

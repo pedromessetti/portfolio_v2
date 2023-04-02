@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 //Style imports
-import style from './AboutMe.module.scss';
+import style from './Footer.module.scss';
 import styleTema from 'styles/Tema.module.scss';
 
 export default function Footer() {
@@ -9,5 +9,5 @@ export default function Footer() {
 		<footer>
 			
 		</footer>
-	)
+	);
 }
