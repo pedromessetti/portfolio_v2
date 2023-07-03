@@ -7,19 +7,6 @@
 	color: $soft-grey;
 	width: 100vw;
 
-	&__suggestion {
-		display: flex;
-		align-items: center;
-		margin: 15px 30px;
-		animation: show 25s linear none 1;
-
-		svg {
-			scale: 250%;
-			margin-right: 15px;
-			animation: float 1.5s linear infinite alternate-reverse;
-		}
-	}
-
 	&__hello {
 		display: flex;
 		justify-content: center;
@@ -71,18 +58,6 @@
 		text-align: start;
 		width: 90vw;
 
-		&__suggestion {
-			font-size: .8em;
-			justify-content: end;
-			margin: 20px 0 15px 70%;
-			text-align: center;
-
-			svg {
-				margin-left: 25px;
-				scale: 250%;
-			}
-		}
-
 		&__hello {
 			margin: 100px 0 0 150px;
 			justify-content: start;
@@ -110,11 +85,6 @@
 	.home {
 		font-size: 2em;
 
-		&__suggestion {
-			font-size: .9em;
-			margin-top: 55px;
-		}
-
 		&__hello {
 			margin: 150px 0 0 250px;
 		}
@@ -137,11 +107,6 @@
 @media (min-width: $WQHD) {
 	.home {
 		font-size: 3em;
-
-		&__suggestion {
-			font-size: .9em;
-			margin-top: 75px;
-		}
 
 		&__hello {
 			margin: 250px 0 0 250px;
