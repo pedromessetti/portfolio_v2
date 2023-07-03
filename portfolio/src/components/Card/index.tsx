@@ -1,37 +1,30 @@
 import React from 'react';
-
-//Style import
-import style from './Card.module.scss';
-
-import pic from 'assets/foto.jpg';
-
-//Icons import
-import { MdEmail, MdPhone } from 'react-icons/md';
-import { BsLinkedin } from 'react-icons/bs';
-
+import styles from './Card.module.scss';
+import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import image from 'assets/foto.jpg';
 
 export default function Card() {
 	return (
-		<div className={style.card}>
-			<h3>Pedro Vinicius Messetti</h3>
-			<div className={style.card__imagecontainer}>
-				<img src={pic} alt="Pedro Messetti picture" />
+		<div className={styles.card}>
+			<div className={styles.imageContainer}>
+				<img src={image} alt="Pedro Messetti" className={styles.image} />
+				<div className={styles.overlay}></div>
+				<div className={styles.socialIcons}>
+					<a href="google.com" target="_blank" rel="noopener noreferrer">
+						<FaTwitter />
+					</a>
+					<a href="google.com" target="_blank" rel="noopener noreferrer">
+						<FaFacebook />
+					</a>
+					<a href="google.com" target="_blank" rel="noopener noreferrer">
+						<FaInstagram />
+					</a>
+				</div>
 			</div>
-			<div className={style.card__container}>
-				<div className={style.text__age}>
-					<strong>Age:</strong> 23 years
-				</div>
-				<div className={style.text__location}>
-					<strong>From:</strong> Rio de Janeiro, RJ - Brasil
-				</div>
-				<div className={style.text__location}>
-					<strong>Living in:</strong> Oeiras, Lisboa - Portugal
-				</div>
-				<div className={style.icons}>
-					<a href='mailto:pedromessetti@gmail.com' target='_blank' rel='noreferrer'><MdEmail className={style.card__icons__email} /></a>
-					<a href='tel:+351 924 686 213'><MdPhone className={style.card__icons__phone} /></a>
-					<a href='https://www.linkedin.com/in/pedro-messetti/' target='_blank' rel='noreferrer'><BsLinkedin className={style.card__icons__linkedin} /></a>
-				</div>
+			<div className={styles.content}>
+				<h3 className={styles.name}>Pedro Messetti</h3>
+				<p className={styles.profession}>Software Engineer</p>
+				<p className={styles.location}>Lisbon, Portugal</p>
 			</div>
 		</div>
 	);

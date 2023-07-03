@@ -1,61 +1,42 @@
-import React, { useState } from 'react';
-
-//Style imports
+import React from 'react';
 import style from './AboutMe.module.scss';
-import styleTema from 'styles/Tema.module.scss';
-
-//Component import
 import Card from 'components/Card';
-import StudiesLogo from 'components/StudiesLogo';
-
-//Data import
-import studies from 'data/studies.json';
-
-//Lib import
-import classNames from 'classnames';
-
+import StudiesIcon, { Study } from 'components/StudiesIcon';
+import studyData from 'data/studies.json';
 
 export default function AboutMe() {
-
-	const item = studies;
-	const [addMargin, setAddMargin] = useState(false);
-
 	return (
-		<div className={style.main}>
-			<section className={classNames({
-				[styleTema.container]: true,
-				[style.infos]: true
-			})}>
-				<h2 className={styleTema.title}>Personal Informations</h2>
-				<Card />
-			</section>
+		<section className={style.container}>
 
-			<section className={style.about}>
-				<h2 className={styleTema.title}>About Me</h2>
-				<div>
-					<p>
-						<span className={style.tag__symbol}>&#60;</span>
-						<span className={style.tag__text}>p</span>
-						<span className={style.tag__symbol}>&#62; </span>
-						I am a very ambitious person, like to challenge myself to develop the best solution for a bigger problem. I work very well in a team and consider myself very organized in my tasks. I like to be in constant development, learning more about new technologies, new frameworks, databases and programming languages. I consider myself a very hardworking and dedicated person, when i go after a goal i dont stop until reach it.
-						<span className={style.tag__symbol}> &#60;/</span>
-						<span className={style.tag__text}>p</span>
-						<span className={style.tag__symbol}>&#62;</span>
-					</p>
-				</div>
-			</section>
+			<div className={style.description}>
+				<h2>About Me</h2>
+				<p>
+					Hello! I&apos;m Pedro Messetti, a passionate and dedicated Software Developer based in Lisbon. With a strong background in Production Engineering, I have practical experience at 42 Lisboa, where I constantly improve my
+					problem-solving skills, teamwork, and efficient project delivery. I strive to create impactful and engaging solutions that make a difference.
+				</p>
+			</div>
 
-			<section className={style.studies}>
-				<h2 className={styleTema.title}>My Studies</h2>
-				<div className={classNames({
-					[style.studies__container]: true,
-					[style.studies__active]: addMargin
-				})}>
-					{item.map(item => (
-						<StudiesLogo key={item.id} setAddMargin={setAddMargin} addMargin={addMargin} {...item} />
-					))}
-				</div>
-			</section>
-		</div>
+			<Card />
+
+			<div className={style.story}>
+				<h2>My Journey</h2>
+				<p>
+					Ever since I was a kid, I&apos;ve been fascinated by technology and how it can be used to solve problems and make people&apos;s lives better. I began coding during college, where I studied C++ and it has captivated me ever since. In 2021, I moved to Portugal and decided to make a career transition. I started learning Python through YouTube, and I became very passionate about the language. Later, I studied Front-End development at Alura, where I learned about HTML, CSS, JS, TS, and frameworks such as React, Angular and Django. Since then, I have been continuously seeking to learn more and have truly fallen in love with programming.
+				</p>
+				<br />
+				<p>
+					Currently, I&apos;m studying at 42 Lisboa, one of the top programming schools in the world, and in just 2 months, I have completed 7 major projects in C. Now, I&apos;m actively seeking my first job in the field. I&apos;m a highly dedicated professional who doesn&apos;t rest until I find a solution to the given problem. Communication comes naturally to me, including in English, and I easily adapt to any work environment. I have excellent time management skills and work well in teams. I have a leadership mindset and enjoy organizing my projects to ensure the best possible outcomes.
+
+				</p>
+			</div>
+
+			<h2>My Studies</h2>
+			<div className={style.studies}>
+				{studyData.map((study: Study) => (
+					<StudiesIcon key={study.id} study={study} />
+				))}
+			</div>
+
+		</section>
 	);
 }

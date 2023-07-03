@@ -1,54 +1,61 @@
-@import 'styles/colors';
-@import 'styles/breakpoints';
-
-//Main settings
-.studies {
-
-	&__container {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		margin: 0 10px;
-	}
-
-	&__active {
-		margin-bottom: 210px;
-	}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 120px;
 }
 
-.about {
-	margin: 20px;
+h2 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-shadow: 2px 2px 2px #333;
+}
+
+.description {
+	text-align: center;
+	margin-bottom: 40px;
 
 	p {
-		color: $darker-grey;
-		font-size: 14px;
+		font-size: 24px;
+		line-height: 1.5;
+		color: #ccc;
+		text-shadow: 1px 1px 1px #333;
 	}
 }
 
-.tag {
-	&__text {
-		color: $tag-text;
-	}
+.story {
+	text-align: center;
+	margin-bottom: 40px;
 
-	&__symbol {
-		color: $tag-symbol;
-	}
-}
-
-
-//Tablet adjustments
-@media (min-width: $tablet) {
-	.main {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.about {
-		p {
-			font-size: 16px;
-		}
+	p {
+		font-size: 24px;
+		line-height: 1.5;
+		color: #ccc;
+		text-align: justify;
+		text-shadow: 1px 1px 1px #333;
 	}
 }
 
-@media (min-width: $laptop) {
-	
+.studies {
+	display: flex;
+	flex-direction: row;
+}
+
+@media (max-width: 768px) {
+	.container {
+		padding: 20px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	.description p {
+		font-size: 18px;
+	}
+
+	.story p {
+		font-size: 18px;
+	}
 }
