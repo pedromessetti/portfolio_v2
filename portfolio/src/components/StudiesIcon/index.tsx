@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './StudiesIcon.module.scss';
+import style from './StudiesIcon.module.scss';
 
 export interface Study {
 	id: number;
@@ -24,20 +24,19 @@ export default function StudiesIcon({ study }: StudiesIconProps) {
 	};
 
 	return (
-		<div className={styles.studiesIcon} onClick={toggleExpand}>
-			<img src={require(`assets/logos/${study.photo}`)} alt={study.name} className={styles.icon} />
-			<p className={styles.name}>{study.name}</p>
+		<div onClick={toggleExpand}>
+			<img src={require(`assets/logos/${study.photo}`)} alt={study.name} className={style.icon} />
+			<p className={style.name}>{study.name}</p>
 			{isExpanded && (
-				<div className={styles.expandedContent}>
-					<p className={styles.description}>{study.description}</p>
-					<ul className={styles.learnings}>
-						{study.learnings.map((learning, index) => (
-							<li key={index}>{learning}</li>
-						))}
-					</ul>
-					<a href={study.link} target="_blank" rel="noopener noreferrer" className={styles.link}>
-						Visit Website
-					</a>
+				<div className={style.overlay}>
+					<div className={style.information}>
+						<h3>{study.name}</h3>
+						<p>{study.description}</p>
+						<p>Learnings: {study.learnings.join(', ')}</p>
+						<a href={study.docs_link} target="_blank" rel="noopener noreferrer">
+							{study.docs_type}
+						</a>
+					</div>
 				</div>
 			)}
 		</div>
