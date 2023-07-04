@@ -24,7 +24,7 @@ export default function StudiesIcon({ study }: StudiesIconProps) {
 	};
 
 	return (
-		<div onClick={toggleExpand}>
+		<div className={style.icon_container} onClick={toggleExpand}>
 			<img src={require(`assets/logos/${study.photo}`)} alt={study.name} className={style.icon} />
 			<p className={style.name}>{study.name}</p>
 			{isExpanded && (

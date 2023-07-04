@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Card.module.scss';
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
-import image from 'assets/foto.jpg';
+import image from 'assets/photo.jpeg';
 
 export default function Card() {
 	return (

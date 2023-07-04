@@ -2,7 +2,7 @@ import React from 'react';
 import style from './AboutMe.module.scss';
 import Card from 'components/Card';
 import StudiesIcon, { Study } from 'components/StudiesIcon';
-import studyData from 'data/studies.json';
+import data from 'data/studies.json';
 
 export default function AboutMe() {
 	return (
@@ -32,7 +32,7 @@ export default function AboutMe() {
 
 			<h2>My Studies</h2>
 			<div className={style.studies}>
-				{studyData.map((study: Study) => (
+				{data.map((study: Study) => (
 					<StudiesIcon key={study.id} study={study} />
 				))}
 			</div>

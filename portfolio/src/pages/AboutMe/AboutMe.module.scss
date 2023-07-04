@@ -39,7 +39,13 @@ h2 {
 
 .studies {
 	display: flex;
-	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center; /* Center items horizontally */
+	align-items: center; /* Center items vertically */
+	
+	@media (max-width: 768px) {
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 768px) {
