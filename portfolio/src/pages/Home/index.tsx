@@ -1,6 +1,6 @@
 import React from 'react';
 
-import pedro from 'assets/pedro.png';
+import pedro from 'assets/myself/pedro.png';
 
 import style from './Home.module.scss';
 import './writer.css';
@@ -36,6 +36,12 @@ export default function Home() {
 				<TypewriterComponent
 					onInit={(write) => {
 						write.pauseFor(5500)
+							.typeString('42 Student')
+							.pauseFor(1000)
+							.deleteAll()
+							.typeString('and')
+							.pauseFor(1000)
+							.deleteAll()
 							.typeString('Software Developer')
 							.start();
 					}}
