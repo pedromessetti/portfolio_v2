@@ -23,7 +23,7 @@ export default function Card() {
 			</div>
 			<div className={styles.content}>
 				<h3 className={styles.name}>Pedro Messetti</h3>
-				<p className={styles.profession}>Software Engineer</p>
+				<p className={styles.profession}>Software Developer</p>
 				<p className={styles.location}>Lisbon, Portugal</p>
 			</div>
 		</div>

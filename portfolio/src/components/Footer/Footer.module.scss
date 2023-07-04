@@ -1,54 +1,50 @@
-@import 'styles/colors';
-@import 'styles/breakpoints';
-
-// Mobile-first styles
 .footer {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #c9c9c9;
-    padding: 5px;
+    background-color: #333;
+    padding: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-}
-
-.links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.links a {
-    margin: 5px;
-}
-
-.rights {
-    font-size: 10px;
-    text-align: center;
-}
-
-// Styles for larger screens
-@media (min-width: 768px) {
-    .footer {
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    color: #fff;
+    font-size: 14px;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+  
+    &.visible {
+      transform: translateY(0);
     }
-
+  
+    &.hidden {
+      transform: translateY(100%);
+    }
+  
     .links {
-        display: flex;
+      display: flex;
+      align-items: center;
+  
+      @media (max-width: 768px) {
+        flex-direction: column;
         align-items: center;
+      }
     }
-
+  
     .links a {
-        margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+      font-size: 20px;
+  
+      &:hover {
+        opacity: 0.8;
+      }
+  
+      @media (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 5px;
+      }
     }
-
-    .rights {
-        font-size: 12px;
-    }
-}
+  }
+  
