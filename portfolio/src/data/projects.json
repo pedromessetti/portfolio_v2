@@ -1,185 +1,159 @@
 [
 	{
-		"professional": [
+		"category": "Professional Projects",
+		"projects": [
 			{
 				"name": "Pátio Antico",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 1
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://patio-antico.vercel.app/"
 			},
 			{
-				"name": "Carlinhos Varela Barbeiros",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 2
+				"name": "Investment Analysis System",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/investment-analysis-system"
 			},
 			{
-				"name": "Webscrapping",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 3
+				"name": "Portfolio",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://pedromessetti-portfolio.vercel.app/"
 			}
 		]
 	},
 	{
-		"ft": [
+		"category": "42 Projects",
+		"projects": [
 			{
-				"name": "C00",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 4
+				"name": "minishell",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/minishell"
 			},
 			{
-				"name": "C01",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 5
+				"name": "push_swap",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/push_swap"
 			},
 			{
-				"name": "C02",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 6
+				"name": "so_long",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/so_long"
 			},
 			{
-				"name": "C03",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 7
+				"name": "pipex",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/pipex"
 			},
 			{
-				"name": "C04",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 8
+				"name": "libft",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/libft"
 			},
 			{
-				"name": "C05",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 9
+				"name": "born2beroot",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/born2beroot"
 			},
 			{
-				"name": "C06",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 10
-			},
-			{
-				"name": "C07",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 11
+				"name": "Piscine",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/piscine"
 			}
 		]
 	},
 	{
-		"alura": [
+		"category": "Front-End Projects",
+		"projects": [
 			{
 				"name": "Aluroni",
 				"description": "Website for a fictional italian restaurant using React with TS, Router DOM, Sass, CSS modules and a bounch of other concepts",
 				"photo": "aluroni.jpg",
-				"link": "https://aluroni-nu.vercel.app",
-				"id": 1
+				"link": "https://aluroni-nu.vercel.app"
 			},
 			{
 				"name": "Interactive Keyboard",
 				"description": "Project that reproduces sounds while click. Using HTML, CSS and JS",
 				"photo": "interactive-keyboard.jpg",
-				"link": "",
-				"id": 2
+				"link": "https://pedromessetti.github.io/interactive-keyboard/"
 			},
 			{
 				"name": "Robotron 2000",
 				"description": "Mount your robot for battle! HTML, CSS and JS",
 				"photo": "robotron-2000.jpg",
-				"link": "",
-				"id": 3
+				"link": "https://pedromessetti.github.io/robotron-2000/"
 			},
 			{
 				"name": "Alura Plus",
 				"description": "Subscription page for new user. Using HTML and CSS",
 				"photo": "alura-plus.jpg",
-				"link": "https://alura-plus-zeta-blond.vercel.app/",
-				"id": 4
+				"link": "https://alura-plus-zeta-blond.vercel.app/"
 			},
 			{
 				"name": "Alura Space",
-				"description": "The best gallery of space images. SPA using React JS",
+				"description": "The best gallery of space images. SPA using ReactJS",
 				"photo": "alura-space.jpg",
-				"link": "https://alura-space-psi.vercel.app/",
-				"id": 5
+				"link": "https://alura-space-psi.vercel.app/"
 			},
 			{
 				"name": "Guessing Game",
 				"description": "Guessing game using JS, HTML and CSS.",
 				"photo": "adivinhacao.jpg",
-				"link": "https://jogo-da-adivinhacao.vercel.app/",
-				"id": 6
+				"link": "https://jogo-da-adivinhacao.vercel.app/"
 			},
 			{
 				"name": "Alura Books",
 				"description": "This project was developed following a design on Figma and has the objective to be developed through the concept of mobile first",
-				"photo": "adivinhacao.jpg",
-				"link": "https://alura-space-psi.vercel.app/",
-				"id": 7
+				"photo": "placeholder.png",
+				"link": "https://alura-space-psi.vercel.app/"
 			},
 			{
 				"name": "Treino React",
 				"description": "SPA for mount your gym training.",
 				"photo": "treino-react.jpg",
-				"link": "https://treino-react.vercel.app/",
-				"id": 8
+				"link": "https://treino-react.vercel.app/"
 			},
 			{
 				"name": "Studies of the day",
 				"description": "React application of a To Do List with a timer for each task. Project developed with TypeScript template, using concepts widely used in React such as DRY (Dont Repeat Yoursel) and SRP (Single Responsibility Principal).",
 				"photo": "estudos.jpg",
-				"link": "https://estudos-do-dia.vercel.app/",
-				"id": 9
+				"link": "https://estudos-do-dia.vercel.app/"
 			}
 		]
 	},
 	{
-		"python": [
+		"category": "Python Projects",
+		"projects": [
+			{
+				"name": "Data Analysis Tool",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/brazilian-stock-analyzer"
+			},
+			{
+				"name": "3D Printer Scraper",
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/3d-printers-scraper"
+			},
 			{
 				"name": "EUR-BRL Conversor",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 21
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/eur-brl-conversor"
 			},
 			{
 				"name": "Register of Users",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 22
-			},
-			{
-				"name": "Rock Paper Sizur",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 23
-			},
-			{
-				"name": "Grade Calculator",
-				"description": "add description",
-				"photo": "ft_putnbr.jpg",
-				"link": "",
-				"id": 24
+				"description": "The description of the project goes here",
+				"photo": "placeholder.png",
+				"link": "https://github.com/pedromessetti/cadastro-simples"
 			}
 		]
 	}

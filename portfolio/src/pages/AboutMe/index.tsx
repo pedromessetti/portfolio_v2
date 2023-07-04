@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './AboutMe.module.scss';
 import Card from 'components/Card';
-import StudiesIcon, { Study } from 'components/StudiesIcon';
+import StudiesIcon from 'components/StudiesIcon';
+import Study from 'types/IStudies';
 import data from 'data/studies.json';
 
 export default function AboutMe() {

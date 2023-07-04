@@ -1,16 +1,6 @@
 import React, { useState } from 'react';
 import style from './StudiesIcon.module.scss';
-
-export interface Study {
-	id: number;
-	name: string;
-	photo: string;
-	description: string;
-	learnings: string[];
-	link: string;
-	docs_type: string;
-	docs_link: string;
-}
+import Study from 'types/IStudies';
 
 interface StudiesIconProps {
 	study: Study;
