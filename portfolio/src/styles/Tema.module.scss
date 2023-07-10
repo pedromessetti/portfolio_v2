@@ -11,4 +11,14 @@
 
 .container {
 	margin: 20px;
+
+	@media screen and (min-width: 1920px) {
+		margin: 100px 500px;
+	}
+}
+
+.about_container {
+	@media screen and (min-width: 1920px) {
+		margin: 100px 500px;
+	}
 }

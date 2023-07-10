@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import projectsData from 'data/projects.json';
 import style from './MyProjects.module.scss';
+import styleTema from 'styles/Tema.module.scss';
 import Category from 'types/IProjects';
 import { SlArrowDown, SlArrowUp } from 'react-icons/sl';
 
@@ -17,7 +18,7 @@ export default function MyProjects() {
 	};
 
 	return (
-		<div className={style.projectsPage}>
+		<div className={`${style.projectsPage} ${styleTema.container}`}>
 			{data.map((category) => {
 				const isCategoryVisible = categoryVisibility[category.category] || false;
 

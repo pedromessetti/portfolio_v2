@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './AboutMe.module.scss';
+import styleTema from 'styles/Tema.module.scss';
 import Card from 'components/Card';
 import StudiesIcon from 'components/StudiesIcon';
 import Study from 'types/IStudies';
@@ -7,7 +8,7 @@ import data from 'data/studies.json';
 
 export default function AboutMe() {
 	return (
-		<section className={style.container}>
+		<section className={`${style.container} ${styleTema.about_container}`}>
 
 			<div className={style.description}>
 				<h2>About Me</h2>

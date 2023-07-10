@@ -3,6 +3,7 @@ import { IconType } from 'react-icons';
 import { FaPython, FaReact, FaAngular, FaHtml5, FaSass } from 'react-icons/fa';
 import { SiCoursera, SiCplusplus, SiCsharp, SiJavascript, SiTypescript, SiDjango, SiPowershell, SiMysql, SiSqlite, SiMongodb, SiCss3 } from 'react-icons/si';
 import style from './Skills.module.scss';
+import styleTema from 'styles/Tema.module.scss';
 import skillsData from 'data/skills.json';
 
 const getIconComponent = (iconName: string): IconType => {
@@ -60,7 +61,7 @@ export default function Skills() {
 
 
 	return (
-		<div className={style.skillsPage}>
+		<div className={`${style.skillsPage} ${styleTema.container}`}>
 			<h2>My Programming Skills</h2>
 			<svg className={style.skillSvg} viewBox="0 -100 600 900">
 				<g>
