@@ -53,7 +53,7 @@ export default function Header() {
 			</div>
 			<ul className={classNames({
 				[style.nav]: true,
-				[style.nav__show]: showMenu
+				[style.nav__show]: showMenu,
 			})
 			}>
 				<li>

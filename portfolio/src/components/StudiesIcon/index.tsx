@@ -14,9 +14,11 @@ export default function StudiesIcon({ study }: StudiesIconProps) {
 	};
 
 	return (
-		<div className={style.icon_container} onClick={toggleExpand}>
-			<img src={require(`assets/logos/${study.photo}`)} alt={study.name} className={style.icon} />
-			<p className={style.name}>{study.name}</p>
+		<div onClick={toggleExpand}>
+			<div className={style.container}>
+				<img src={require(`assets/logos/${study.photo}`)} alt={study.name} className={style.icon} />
+				<p className={style.name}>{study.name}</p>
+			</div>
 			{isExpanded && (
 				<div className={style.overlay}>
 					<div className={style.information}>

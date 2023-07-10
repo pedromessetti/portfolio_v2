@@ -87,8 +87,8 @@ export default function Skills() {
 									<title>{skill.name}</title>
 								</g>
 								<foreignObject
-									x={x + 200} // Adjust the positioning here
-									y={y - 75} // Adjust the positioning here
+									x={x + 100}
+									y={y - 75}
 									width="150"
 									height="150"
 								>

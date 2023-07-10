@@ -52,14 +52,20 @@ header {
 		width: 100%;
 		font-size: 16px;
 		font-weight: 500;
+		opacity: 1;
+		height: auto;
+		transition: opacity 0.5s ease, height 0.5s ease;
+	
+		&__show {
+		  opacity: 0;
+		  height: 0;
+		  overflow: hidden;
+		  transition: opacity 0.5s ease, height 0.5s ease;
+		}
 
 		li {
 			margin: 6px;
 			color: $soft-grey;
-		}
-
-		&__show {
-			display: none;
 		}
 	}
 }
@@ -70,6 +76,7 @@ header {
 		align-items: center;
 		grid-template-columns: 40% 60%;
 		font-size: 1.2em;
+		transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 		.container {
 			margin: 15px 50px;
