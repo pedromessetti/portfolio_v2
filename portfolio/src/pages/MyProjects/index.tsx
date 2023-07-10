@@ -32,7 +32,7 @@ export default function MyProjects() {
 						<div
 							className={`${style.projectList} ${isCategoryVisible ? style.showProjects : style.hideProjects}`}
 							style={{
-								maxHeight: isCategoryVisible ? '1000px' : '0',
+								maxHeight: isCategoryVisible ? '100%' : '0',
 								transition: isCategoryVisible ? 'max-height 0.5s ease-in-out' : 'max-height 0.3s ease-in-out'
 							}}
 						>
