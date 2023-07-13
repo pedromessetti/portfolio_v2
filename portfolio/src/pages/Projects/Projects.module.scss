@@ -33,13 +33,14 @@
 }
 
 .project {
-	background-color: #f5f5f5;
+	background-color: #cecece;
 	padding: 20px;
 	border-radius: 8px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	max-width: 320px;
 	
 	@media screen and (max-width: 768px) {
 		width: 100%;
@@ -57,10 +58,13 @@
 
 .projectPhoto {
 	width: 100%;
-	max-width: 280px;
+	max-width: 260px;
 	height: auto;
+	max-height: 180px;
+	object-fit: contain;
 	border-radius: 4px;
 	margin-bottom: 16px;
+	border: 4px solid #333;
 }
 
 .projectName {
