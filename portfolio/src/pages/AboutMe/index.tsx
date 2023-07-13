@@ -8,7 +8,7 @@ import data from 'data/studies.json';
 
 export default function AboutMe() {
 	return (
-		<section className={`${style.container} ${styleTema.about_container}`}>
+		<section className={`${style.container} ${styleTema.about_container}`} id='about'>
 
 			<div className={style.description}>
 				<h2>About Me</h2>
@@ -20,7 +20,7 @@ export default function AboutMe() {
 
 			<Card />
 
-			<div className={style.story}>
+			<div className={style.journey}>
 				<h2>My Journey</h2>
 				<p>
 					Ever since I was a kid, I&apos;ve been fascinated by technology and how it can be used to solve problems and make people&apos;s lives better. I began coding during college, where I studied C++ and it has captivated me ever since. In 2021, I moved to Portugal and decided to make a career transition. I started learning Python through YouTube, and I became very passionate about the language. Later, I studied Front-End development at Alura, where I learned about HTML, CSS, JS, TS, and frameworks such as React, Angular and Django. Since then, I have been continuously seeking to learn more and have truly fallen in love with programming.
@@ -32,7 +32,7 @@ export default function AboutMe() {
 				</p>
 			</div>
 
-			<h2>My Studies</h2>
+			<h2>Studies</h2>
 			<div className={style.studies}>
 				{data.map((study: Study) => (
 					<StudiesIcon key={study.id} study={study} />

@@ -1,18 +1,14 @@
 import React from 'react';
-
 import pedro from 'assets/myself/pedro.png';
-
 import style from './Home.module.scss';
 import './writer.css';
-
 import { BiWorld } from 'react-icons/bi';
-
 import TypewriterComponent from 'typewriter-effect';
 
 export default function Home() {
 
 	return (
-		<section className={style.home}>
+		<section className={style.home} id='home'>
 			<h2 className={style.home__hello}>
 				<TypewriterComponent
 					onInit={(write) => {

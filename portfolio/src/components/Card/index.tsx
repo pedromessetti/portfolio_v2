@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Card.module.scss';
-import { FaTwitter, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaInstagram } from 'react-icons/fa';
 import { ImWhatsapp } from 'react-icons/im';
 import image from 'assets/myself/pedro.jpeg';
 

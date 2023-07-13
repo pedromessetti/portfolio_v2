@@ -61,8 +61,8 @@ export default function Skills() {
 
 
 	return (
-		<div className={`${style.skillsPage} ${styleTema.container}`}>
-			<h2>My Programming Skills</h2>
+		<section className={`${style.skillsPage} ${styleTema.container}`} id='skills'>
+			<h2>Programming Skills</h2>
 			<svg className={style.skillSvg} viewBox="0 -100 600 900">
 				<g>
 					{skills.map((skill, index) => {
@@ -105,6 +105,6 @@ export default function Skills() {
 					})}
 				</g>
 			</svg>
-		</div>
+		</section>
 	);
 }

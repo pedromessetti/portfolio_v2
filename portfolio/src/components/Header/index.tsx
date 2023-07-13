@@ -57,16 +57,16 @@ export default function Header() {
 			})
 			}>
 				<li>
-					<Link to='/'>Home</Link>
+					<a href='#'>Home</a>
 				</li>
 				<li>
-					<Link to='/about'>About Me</Link>
+					<a href='#about'>About Me</a>
 				</li>
 				<li>
-					<Link to='/projects'>My Projects</Link>
+					<a href='#projects'>Projects</a>
 				</li>
 				<li>
-					<Link to='/skills'>Skills</Link>
+					<a href='#skills'>Skills</a>
 				</li>
 			</ul>
 		</header>
