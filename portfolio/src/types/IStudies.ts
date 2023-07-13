@@ -1,6 +1,7 @@
 export default interface Study {
 	id: number;
 	name: string;
+	card_name: string;
 	photo: string;
 	description: string;
 	learnings: string[];

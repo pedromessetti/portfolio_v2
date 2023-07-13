@@ -1,6 +1,7 @@
 [
 	{
 		"name": "42",
+		"card_name": "42 Lisboa",
 		"photo": "42lisboa.png",
 		"id": 1,
 		"link": "https://www.42lisboa.com/",
@@ -11,6 +12,7 @@
 	},
 	{
 		"name": "Alura",
+		"card_name": "Alura Cursos Online",
 		"photo": "alura.png",
 		"id": 2,
 		"link": "https://www.alura.com.br/",
@@ -21,6 +23,7 @@
 	},
 	{
 		"name": "CEV",
+		"card_name": "Curso em Vídeo",
 		"photo": "cev.png",
 		"id": 3,
 		"link": "https://youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-",
@@ -31,6 +34,7 @@
 	},
 	{
 		"name": "UFF",
+		"card_name": "Universidade Federal Fluminense",
 		"photo": "uff.png",
 		"id": 4,
 		"link": "https://www.uff.br/",
@@ -41,6 +45,7 @@
 	},
 	{
 		"name": "CLAC",
+		"card_name": "Curso de Línguas Aberto à Comunidade",
 		"photo": "clac.png",
 		"id": 5,
 		"link": "https://clac.letras.ufrj.br/",

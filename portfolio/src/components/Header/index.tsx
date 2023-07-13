@@ -46,9 +46,9 @@ export default function Header() {
 					/>
 				</div>
 				<div className={style.container__logo}>
-					<Link to='/'>
+					<a href=''>
 						<h1>Port<span>folio</span></h1>
-					</Link>
+					</a>
 				</div>
 			</div>
 			<ul className={classNames({

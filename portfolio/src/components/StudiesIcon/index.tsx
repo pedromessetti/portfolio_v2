@@ -22,7 +22,7 @@ export default function StudiesIcon({ study }: StudiesIconProps) {
 			{isExpanded && (
 				<div className={style.overlay}>
 					<div className={style.information}>
-						<h3>{study.name}</h3>
+						<h3>{study.card_name}</h3>
 						<p>{study.description}</p>
 						<p>Learnings: {study.learnings.join(', ')}</p>
 						<a href={study.docs_link} target="_blank" rel="noopener noreferrer">
